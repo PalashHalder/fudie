@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_directions_24"
+        android:title="menu"
+        >
+
+        <menu>
+            <item
+                app:showAsAction="always"
+                android:icon="@drawable/ic_arrow"
+                android:title="মুজিব বর্ষ"
+                android:id="@+id/coffee"
+                />
+            <item
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/ic_arrow"
+                android:title="সুবর্ণজয়ন্তী"
+                android:id="@+id/burger"
+                />
+            <item
+                app:showAsAction="never"
+                android:icon="@drawable/ic_arrow"
+                android:title="শেয়ার সংক্রান্ত"
+                android:id="@+id/share"
+                />
+            <item
+                app:showAsAction="never"
+                android:icon="@drawable/ic_arrow"
+                android:title="ইনোভেশন ব্লগ"
+                android:id="@+id/pizza"
+                />
+
+        </menu>
+    </item>
+</menu>

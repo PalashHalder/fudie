@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankIntro">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+
+    <TextView
+        android:id="@+id/bankIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="ব্যাংকের পরিচিতি"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="25sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bankIntro">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/topText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginBottom="20dp"
+
+
+                android:text="বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী দেশের সর্ববৃহৎ সুশৃঙ্খল ও সুসংগঠিত বাহিনী, এ বাহিনীর সদস্য সংখ্যা প্রায় ৬১ লক্ষ, যার প্রায় অর্ধেকই নারী। সুশৃঙ্খল ও সুসংগঠিত বিশাল এ বাহিনীর সদস্যগণকে অর্থনৈতিক কর্মকান্ডে সম্পৃক্ত করা ও তাঁদের  জীবনযাত্রার মান উন্নয়নের লক্ষ্যে প্রতিষ্ঠিত সরকার কর্তৃক নিয়ন্ত্রিত একটি বিশেষায়িত ব্যাংক, যার কার্যক্রম শুরু হয়েছে ১৯৯৬ সালের ১০ জানুয়ারী। প্রতিষ্ঠালগ্ন থেকে ব্যাংকিং সেবা প্রদানের মাধ্যমে এ ব্যাংক আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্যগণের দারিদ্র্য বিমোচন, নারীর ক্ষমতায়ন, অর্থনৈতিক উন্নয়নে নিরলসভাবে কাজ করে চলেছে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/topNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topText"
+                android:layout_marginBottom="20dp"
+                android:text="বিগত বছরগুলোতে অনুষ্ঠিত আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর বার্ষিক সমাবেশে গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের মাননীয় প্রধানমন্ত্রী আনসার-ভিডিপি উন্নয়ন ব্যাংকের চলমান কার্যক্রমের উপর প্রশংসাসূচক বক্তব্য প্রদান করেছেন এবং তিনি নিজে শেয়ার ক্রয় করে এ ব্যাংকের মালিকানা প্রাপ্ত হয়েছেন।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/secondText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topText"
+                android:layout_marginBottom="20dp"
+                android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংকের তহবিল ব্যাংকের পরিশোধিত মূলধন, সরকারী ঋণ, বাংলাদেশ ব্যাংকের ঋণ এবং বিভিন্ন রাষ্ট্রীয় মালিকানাধীন ব্যাংক ও প্রতিষ্ঠানের ঋণ এবং নিজস্ব আয় ও ঋণ আদায় থেকে সংগৃহীত হয়। আনসার-ভিডিপি উন্নয়ন ব্যাংকের অনুমোদিত প্রারম্ভিক মূলধন ১০০ (একশত) কোটি টাকা যা ধাপে ধাপে বৃদ্ধি পেয়ে বর্তমানে ১০০০ (এক হাজার) কোটি টাকায় উন্নীত হয়েছে। ব্যাংকের ইস্যুকৃত মূলধন ৪০০ (চারশত) কোটি টাকা, যার ২৫% অর্থাৎ ১০০ কোটি টাকা গণপ্রজাতন্ত্রী বাংলাদেশ সরকার এবং ৭৫% অর্থাৎ ৩০০ কোটি টাকা আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্য/সদস্যা, আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর কর্মকর্তা ও কর্মচারী এবং অত্র ব্যাংকের কর্মকর্তা ও কর্মচারীদের মধ্যে প্রতিটি ১০০ (একশত) টাকা মূল্যমানের শেয়ার বিক্রয়ের মাধ্যমে সংগ্রহ করা হয়। আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্যগণের নিকট হতে জামানত গ্রহন করে অথবা বিনা জামানতে ঋণ প্রদান করা। আমানত গ্রহন করা ও ঋণ প্রদান করা ব্যাংকের অন্যতম কাজ।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/thirdText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/secondText"
+                android:layout_marginBottom="20dp"
+                android:text="গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের অর্থ মন্ত্রণালয়ের আর্থিক প্রতিষ্ঠান বিভাগ এবং বাংলাদেশ ব্যাংকের নীতিমালা অনুসরণপূর্বক কৃষি উৎপাদন, দুগ্ধ উৎপাদন ও কৃত্রিম প্রজনন, একটি বাড়ী একটি খামার সমন্বিত কৃষি ঋণ, এসএমইসহ কৃষি ও পল্লী ঋণ তথা অন্যান্য আয় উৎসারী কর্মকান্ডে এ পর্যন্ত ৩৪টি ঋণ প্রোডাক্টের মাধ্যমে সারাদেশে ১৮টি আঞ্চলিক কার্যালয়ের আওতাধীন ২৫৯টি শাখার মাধ্যমে ঋণ কার্যক্রম পরিচালিত হচ্ছে। ব্যাংকের সকল ঋণ কার্যক্রম supervised credit এর আওতায় পরিচালিত হয়।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+</RelativeLayout>

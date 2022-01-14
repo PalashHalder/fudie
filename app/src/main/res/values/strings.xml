@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ansar-VDP Unnayan Bank</string>
+    <string name="drawerOpen">Drawer Open</string>
+    <string name="drawerClose">Drawer Close</string>
+
+    <string name="bankIntro">ব্যাংকের পরিচিতি</string>
+    <string name="missionVission">মিশন ও ভিশন</string>
+    <string name="loanProduct">ঋণ সেবাসমূহ</string>
+    <string name="depositProduct">আমানত সেবাসমূহ</string>
+    <string name="share">শেয়ার সেবাসমূহ</string>
+    <string name="office">অফিস সমূহ</string>
+    <string name="contact">যোগাযোগ</string>
+    <string name="faqs">সাধারণ জিজ্ঞাসা</string>
+
+    <string name="other">অন্যান্য</string>
+    <string name="settings">সেটিংস</string>
+    <string name="email">ইমেইল</string>
+    <string name="website">ওয়েবসাইট</string>
+
+    <string name="bankName">আনসার-ভিডিপি উন্নয়ন ব্যাংক</string>
+    <string name="slogan">দারিদ্র বিমোচন, নারীর ক্ষমতায়ন, অথনৈতিক উন্নয়নে অঙ্গীকারবদ্ধ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

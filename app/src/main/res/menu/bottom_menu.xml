@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/coffee_bot"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/burger_bot"
+        android:icon="@drawable/contact"
+        android:title="contact" />
+    <item
+        android:id="@+id/pizza_bot"
+        android:icon="@drawable/ic_baseline_web_24"
+        android:title="Website" />
+
+</menu>

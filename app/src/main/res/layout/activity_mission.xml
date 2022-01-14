@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MissionActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+
+    <TextView
+        android:id="@+id/bankIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="মিশন ও ভিশন"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="25sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bankIntro">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/topText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginBottom="20dp"
+
+
+                android:text="ভিশনঃ \n -বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্যদের দারিদ্র্য বিমোচন/অর্থনৈতিক উন্নয়ন/নারীর ক্ষমতায়ন এবং কর্মসৃজন;\n-বাহিনীর সদস্যদের আয়বর্ধক কর্মকান্ডে ঋণ সহয়তা প্রদানের মাধ্যমে তাদের জীবন যাত্রার মান উন্নয়ন;\n-সরকারের ”টেকসই উন্নয়ন লক্ষ্যমাত্রা” অর্জনের লক্ষ্যে  ২০২১ সালের মধ্যে মধ্যম আয়ের দেশ, ২০৩০ সালের মধ্যে দারিদ্র্যমুক্ত উন্নত দেশ গঠনপূর্বক SDG'sঅর্জন তথা ২০৪১ সালের মধ্যে সমৃদ্ধ বাংলাদেশ গড়ে তোলার ক্ষেত্রে অবদান রাখা;\n-Vibrant and Financially Sound Bank হিসেবে সুপ্রতিষ্ঠিত করা।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/topNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topText"
+                android:layout_marginBottom="20dp"
+                android:text="মিশনঃ \n
+                \nবাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর বৃহৎ জনগোষ্ঠীকে ব্যাংকিং সেবা নেটওয়ার্কে অন্তর্ভূক্তকরণ;
+               \n আমানত আহরণ ও আয়বর্ধক কর্মকান্ডে ঋণ সহায়তা প্রদানের মাধ্যমে জীবনযাত্রার মান উন্নয়ন;
+                \nশেয়ার ক্রয়ে উদ্বুদ্ধকরণের মাধ্যমে ব্যাংকের মূলধন কাংখিত পর্যায়ে উন্নীতকরণ।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+</RelativeLayout>
