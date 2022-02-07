@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"/>
+
+    <TextView
+        android:id="@+id/contactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="জরুরী যোগাযোগ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="20sp" />
+
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactInfo">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+    <TextView
+        android:id="@+id/grievanceOfficer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/contactInfo"
+        android:text="অভিযোগ প্রতিকার ব্যবস্থাপনা কর্মকর্তা "
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactInfo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="\n\nজনাব মোহাম্মদ জাফর মিয়া\n উপ-মহাব্যবস্থাপক\n সাধারণ সেবা বিভাগ\n আনসার-ভিডিপি উন্নয়ন ব্যাংক\n প্রধান কাযর্ালয়\n ১৪, আউটার সার্কুলার রোড\n রাজারবাগ, ঢাকা-১২১৭"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/infoOfficer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactInfo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="15dp"
+        android:text="তথ্য অধিকার কর্মকর্তা "
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/belowText"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="জনাব বাদল চন্দ্র দেবনাথ\n উপ-মহাব্যবস্থাপক\n সচিব, পরিচালনা পর্ষদ\n আনসার-ভিডিপি উন্নয়ন ব্যাংক\n প্রধান কাযর্ালয়\n ১৪, আউটার সার্কুলার রোড\n রাজারবাগ, ঢাকা-১২১৭"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="14sp" />
+
+</RelativeLayout>

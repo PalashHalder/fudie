@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MDirectorActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+    <ImageView
+        android:layout_marginTop="57dp"
+        android:id="@+id/mdPhoto"
+        android:src="@drawable/md"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@id/mdPhoto"
+        android:id="@+id/mdBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:text="জনাব মো. মোসাদ্দেক-উল-আলম\n ব্যবস্থাপনা পরিচালক"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mdBio">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/topText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginBottom="20dp"
+                android:justificationMode="inter_word"
+                android:text="মো. মোসাদ্দেক-উল-আলম আনসার-ভিডিপি উন্নয়ন ব্যাংকে ব্যবস্থাপনা পরিচালক হিসাবে ১৪ নভেম্বর ২০১৯ তারিখে যোগদান করেন। পদোন্নতির পূর্বে তিনি ইনভেস্টমেন্ট কর্পোরেশন অব বাংলাদেশ এ উপ- ব্যবস্থাপনা পরিচালক হিসাবে দায়িত্ব পালন করেন। পাশাপাশি তিনি আইসিবি সিকিউরিটিজ অ্যান্ড ট্রেডিং কোম্পানি এবং ওয়াটা কেমিক্যাল লিঃ এর চেয়ারম্যান হিসাবে দায়িত্ব পালন করেছেন। তিনি ইসলামি ব্যাংক বাংলাদেশ লিঃ, রিপাবলিক ইন্সুরেন্স কোম্পানি লিঃ, গোল্ডেন সন লিঃ, বাংলাদেশ ক্রেডিট রেটিং এজেন্সি, এ্যারোমা চা লিঃ,  ইসলামি ব্যাংক ক্যাপিটাল ম্যানেজমেন্ট লিঃ এর পরিচালক হিসেবে অর্পিত দায়িত্ব পালন করেছেন।
+                            \n\nতিনি ১৯৮৫ সালের ১৩ আগস্ট সিনিয়র অফিসার হিসেবে জনতা ব্যাংকে যোগদানের মাধ্যমে কর্মজীবন শুরু করেন এবং বিভিন্ন সময়ে জনতা ব্যাংকের গুরুত্বপূর্ণ পদে অধিষ্ঠিত ছিলেন।
+                            \n\nমো. মোসাদ্দেক-উল-আলম ১৯৬২ সালে লালমনিরহাট জেলার পাটগ্রাম থানায় এক সম্ভ্রান্ত মুসলিম পরিবারে জন্মগ্রহণ করেন। তাঁর পিতা মরহুম আবিদ আলী এবং মাতা মোসাঃ মোমিনা খাতুন। তিনি ১৯৭৯ সালে এইচএসসি পরীক্ষায় বাণিজ্য বিভাগে রাজশাহী বিভাগে ৫ম স্থান অধিকার করেন। পরবর্তীতে তিনি ঢাকা বিশ্ববিদ্যালয় হতে সাফল্যের সাথে হিসাব বিজ্ঞানে অনার্স মাস্টার্স ডিগ্রি লাভ করেন। জনাব মোসাদ্দেক পেশাগত ও অন্যান্য কাজে ইতালি, সিঙ্গাপুর, ইউএই, মালয়েশিয়া, থাইল্যান্ড, ইন্দোনেশিয়া, ভারতসহ বিভিন্ন দেশ ভ্রমণ করেছেন।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+
+            // for maintaining space
+            <TextView
+                android:id="@+id/blankSpace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topText"
+                android:layout_marginBottom="30dp"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+</RelativeLayout>

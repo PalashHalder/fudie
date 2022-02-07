@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BangabondhuActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/coverImg"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="90dp"
+        android:id="@+id/profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="3dp"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profile_image"
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:includeFontPadding="false"
+        android:text="Palash"
+        android:textColor="#2196F3"
+        android:textSize="25sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_below="@+id/profileName"
+        android:id="@+id/profileStatus"
+        android:layout_marginTop="1dp"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palash's Corner"
+        android:textColor="#3F112B"
+        android:textSize="18sp"
+        android:textStyle="normal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/profileStatus">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.github.barteksc.pdfviewer.PDFView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -20,24 +20,26 @@
         android:id="@+id/textWelcome"
         android:layout_below="@id/splashImage"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:text="স্বাগতম"
-        android:textColor="#F44336"
+        android:text="তথ্য কনিকা"
+        android:textColor="#2196F3"
         android:layout_marginTop="2dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"/>
+        android:textSize="30dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/bankName"
         android:layout_below="@id/splashImage"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংক"
-        android:textColor="#147E18"
+        android:textColor="#34AA39"
         android:layout_marginTop="5dp"
+        android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"/>
+        android:textSize="24dp"/>
 
 </LinearLayout>

@@ -3,33 +3,54 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <item
-        android:id="@+id/menuIntro"
-        android:icon="@drawable/ic_arrow_right_24"
-        android:title="@string/bankIntro"/>
+    <item android:title="ব্যাংক সম্পর্কিত">
+        <menu>
+            <item
+                android:id="@+id/menuIntro"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/bankIntro"/>
+            <item
+                android:id="@+id/menuMission"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/missionVission"/>
 
-    <item
-        android:id="@+id/menuShare"
-        android:icon="@drawable/ic_arrow"
-        android:title="@string/share"/>
+            <item
+                android:id="@+id/menuChair"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/chair"/>
+
+            <item
+                android:id="@+id/menuMDirector"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/md"/>
+            <item
+                android:id="@+id/menuDmDirector"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/dmd"/>
+
+        </menu>
+    </item>
 
 
-    <item
-        android:id="@+id/menuLoan"
-        android:icon="@drawable/ic_arrow_right_24"
-        android:title="@string/loanProduct"
-        />
+    <item android:title="সেবা সমূহ">
+        <menu>
+            <item
+                android:id="@+id/menuShare"
+                android:icon="@drawable/ic_arrow"
+                android:title="@string/share"/>
+            <item
+                android:id="@+id/menuLoan"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/allloanproducts"/>
 
-    <item
-        android:id="@+id/menuDeposit"
-        android:icon="@drawable/ic_arrow_right_24"
-        android:title="@string/depositProduct"/>
+            <item
+                android:id="@+id/menuDeposit"
+                android:icon="@drawable/ic_arrow_right_24"
+                android:title="@string/depositProduct"/>
 
+        </menu>
+    </item>
 
-    <item
-        android:id="@+id/menuMission"
-        android:icon="@drawable/ic_arrow_right_24"
-        android:title="@string/missionVission"/>
 
     <item
         android:id="@+id/menuOffice"

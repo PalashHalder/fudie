@@ -30,7 +30,7 @@
             android:includeFontPadding="false"
             android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংক"
             android:textColor="@color/white"
-            android:textSize="12dp"
+            android:textSize="14dp"
             android:textStyle="bold" />
     </RelativeLayout>
 

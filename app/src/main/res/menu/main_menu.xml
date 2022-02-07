@@ -2,27 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
-
-
     <item
         app:showAsAction="always"
-        android:icon="@drawable/ic_baseline_directions_24"
-        android:title="menu"
-        >
+        android:icon="@drawable/directions"
+        android:title="menu">
 
         <menu>
             <item
                 app:showAsAction="always"
                 android:icon="@drawable/ic_arrow"
                 android:title="মুজিব বর্ষ"
-                android:id="@+id/coffee"
+                android:id="@+id/mujib"
                 />
             <item
                 app:showAsAction="ifRoom"
                 android:icon="@drawable/ic_arrow"
                 android:title="সুবর্ণজয়ন্তী"
-                android:id="@+id/burger"
+                android:id="@+id/golden"
                 />
             <item
                 app:showAsAction="never"
@@ -34,7 +30,7 @@
                 app:showAsAction="never"
                 android:icon="@drawable/ic_arrow"
                 android:title="ইনোভেশন ব্লগ"
-                android:id="@+id/pizza"
+                android:id="@+id/blog"
                 />
 
         </menu>

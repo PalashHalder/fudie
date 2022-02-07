@@ -5,7 +5,10 @@
 
     <string name="bankIntro">ব্যাংকের পরিচিতি</string>
     <string name="missionVission">মিশন ও ভিশন</string>
-    <string name="loanProduct">ঋণ সেবাসমূহ</string>
+    <string name="chair">চেয়ারম্যান</string>
+    <string name="md">ব্যবস্থাপনা পরিচালক</string>
+    <string name="dmd">উপব্যবস্থাপনা পরিচালক</string>
+    <string name="allloanproducts">ঋণ সেবাসমূহ</string>
     <string name="depositProduct">আমানত সেবাসমূহ</string>
     <string name="share">শেয়ার সেবাসমূহ</string>
     <string name="office">অফিস সমূহ</string>

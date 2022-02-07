@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    app:cardBackgroundColor="#339BED">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fish"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/loanproductTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ঋণ খাত"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/serialTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serial"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/lserviceTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loan Service"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

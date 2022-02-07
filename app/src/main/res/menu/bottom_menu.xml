@@ -4,16 +4,19 @@
 
 
     <item
-        android:id="@+id/coffee_bot"
+        android:id="@+id/home_bot"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Home" />
+
     <item
-        android:id="@+id/burger_bot"
-        android:icon="@drawable/contact"
-        android:title="contact" />
-    <item
-        android:id="@+id/pizza_bot"
+        android:id="@+id/portal_bot"
         android:icon="@drawable/ic_baseline_web_24"
-        android:title="Website" />
+        android:title="Portal" />
+
+    <item
+        android:id="@+id/links_bot"
+        android:icon="@drawable/contact"
+        android:title="Links" />
+
 
 </menu>

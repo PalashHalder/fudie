@@ -6,67 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".DepositActivity">
 
-
     <include
         android:id="@+id/toolbar"
-        layout="@layout/my_toolbar"
-        />
+        layout="@layout/my_toolbar"/>
 
-    <TextView
-        android:id="@+id/depositHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:text="জনপ্রিয় আমানতসমূহ"
-        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
-        android:textSize="25sp" />
-
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/depositHeading">
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="60dp">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/topText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title"
-                android:layout_marginBottom="20dp"
-                android:text=" বঙ্গবন্ধু সঞ্চয়ী আমানত।"
-                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
-                android:textSize="15sp" />
-            <TextView
-                android:id="@+id/topNext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/topText"
-                android:layout_marginBottom="20dp"
-                android:text="নারী আমানত"
-                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
-                android:textSize="15sp" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/userRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
 
 
 
-        </LinearLayout>
-
-    </ScrollView>
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/botNav"
         android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@drawable/bottom_nav_back"
         app:menu="@menu/bottom_menu"/>
-
 
 </RelativeLayout>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+
+    <TextView
+        android:id="@+id/bankShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="শেয়ার ক্রয় বহুল ‍জিজ্ঞাসিত প্রশ্ন"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bankShare">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quesOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="১। আনসার-ভিডিপি উন্নয়ন ব্যাংকের শেয়ার কেন ক্রয় করব?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ  আনসার-ভিডিপি উন্নয়ন ব্যাংককে বিশেষায়িত ব্যাংক থেকে বানিজ্যিক ব্যাংকে রূপান্তরিত করার জন্য শেয়ার  বিক্রির মাধ্যমে  Paid up capital বৃদ্ধি করার জন্য শেয়ার বিক্রয় করা হচ্ছে। এই ব্যাংকটি বানিজ্যিক ব্যাংক হলে স্টক এক্সচেঞ্জে সহজেই তালিকাভুক্ত করা যাবে যেখানে শেয়ার ক্রয় বিক্রয়ের সুবিধা থাকবে। তাছাড়া ব্যাংকের অর্জিত লভ্যাংশ এর মালিক হওয়া যাবে, শেয়ার হোল্ডার হিসেবে স্বল্পসুদে লোনসহ নানা সুবিধা পাওয়া যাবে। সর্বোপরি অন্য সকল বানিজ্যিক বাংকের সাথেও লেনদেন সহজ হবে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="২।   শেয়ার কিভাবে কেনা যাবে?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   প্রত্যেক ইউনিটে একজন করে ফোকাল পয়েন্ট নির্ধারণ করা আছে। তার মাধ্যমে শেয়ার ক্রয় করা যাবে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৩।   শেয়ার ক্রয়ের বাধ্যবাধকতার সময়সীমা কত বছর পর্যন্ত নির্ধারন করা হয়েছে?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   প্রাথমিকভাবে আগামী জুন ২০২০ খ্রিঃ পর্যন্ত। "
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৪।   শেয়ার ক্রয়ের পর ডিজিটাল স্বাক্ষরযুক্ত সার্টিফিকেট প্রিন্ট নেয়া সম্ভব কিনা?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   ওয়েবসাইটে গিয়ে ইতোমধ্যে প্রেরিত লগইন তথ্য (শেয়ার রেজি নং ও পিন কোড) সহ লগইন করে ক্রয়কৃত শেয়ারের তথ্য দেখা যাবে এবং শেয়ার তথ্য দেখা যাবে এবং প্রিন্ট ও ডাউনলোড করা যাবে| "
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৫।   আমার অর্জিত শেয়ার অন্য কোন সদস্য ক্রয়ের আগ্রহ দেখালে তা বিক্রয় করা যাবে কিনা?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   স্টক এক্সচেঞ্জে তালিকাভুক্তি সাপেক্ষে বিক্রয় করা যাবে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৬।   আমি প্রতিমাসে সর্বনিম্ন ও সর্বোচ্চ কত টাকার শেয়ার ক্রয় করতে পারব ?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   প্রাধিকার মোতাবেক সর্বনিম্ন শেয়ার ক্রয় করতে হবে, তবে সর্বোচ্চসীমা আপাতত: অনির্ধারিত। প্রয়োজনে পরিস্থিতি বিবেচনায় সর্বোচ্চসীমা দেয়া হতে পারে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৭।   শেয়ার ডিজিটালাইজেশসনের পূর্বে ক্রয়কৃত শেয়ার এর হিসাব কিভাবে আমার নতুন শেয়ার আইডিতে অন্তর্ভুক্ত করতে পারব ?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   ব্যাংক স্বয়ংক্রিয় ভাবে পর্যায়ক্রমে সম্পন্ন করবে এবং পূর্বে ক্রয়কৃত শেয়ার এর কোন ডকুমেন্ট নিকটস্থ শাখায় উপস্থাপন করেও নতুন   শেয়ার আইডিতে অন্তর্ভুক্ত করা যাবে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৮।    আমার বর্তমান অংগীভূতি মেয়াদ শেষে পরবর্তীতে অন্য জেলায় অংগীভূত হলে বর্তমান শেয়ারের কি হবে ? "
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   প্রত্যেক শেয়ার হোল্ডার তার নির্দিষ্ট আইডি নম্বর  দিয়ে সে তার বর্তমান একাউন্টটি সক্রিয় রেখে সবসময়  ব্যবহার করতে পারবে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="৯।    আমার ক্রয়কৃত শেয়ার বিক্রয়ের কোন সুযোগ আছে কিনা ?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   এখন থেকে তিন বছর পর ক্রয় বিক্রয়ের ব্যবস্থা করা হবে। এ তিন বছর শুধু ক্রয় করা যাবে | "
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/quesTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/bankShare"
+                android:text="১০।   আমার নির্ধারিত সিলিং এর শেয়ার প্রতি মাসে ক্রয় না করে একেবারে ক্রয় করা যাবে কি না ?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/ansTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/bankShareParaOne"
+                android:text="উঃ   যাবে।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:id="@+id/blankSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/bankShare"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+
+</RelativeLayout>

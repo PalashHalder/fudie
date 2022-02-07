@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MDirectorActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+    <ImageView
+        android:layout_marginTop="57dp"
+        android:id="@+id/dmdPhoto"
+        android:src="@drawable/dmd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@id/dmdPhoto"
+        android:id="@+id/dmdBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:text="জনাব ওয়াহিদা বেগম\n উপব্যবস্থাপনা পরিচালক"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dmdBio">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/topText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginBottom="20dp"
+                android:justificationMode="inter_word"
+                android:text="আনসার- ভিডিপি উন্নয়ন ব্যাংকের নতুন উপব্যবস্থাপনা পরিচালক হলেন জনাব ওয়াহিদা বেগম। সম্প্রতি অর্থ মন্ত্রণালয়ের আর্থিক প্রতিষ্ঠান বিভাগের এক প্রজ্ঞাপনের মাধ্যমে সরকার কর্তৃক পদোন্নতি প্রাপ্ত হয়ে আনসার- ভিডিপি উন্নয়ন ব্যাংকের উপ-ব্যবস্থাপনা পরিচালক হিসেবে তিনি যোগদান করেছেন।
+                            \n\nডিএমডি হিসেবে যোগদানের পূর্বে তিনি রূপালী ব্যাংকে সাফল্যের সঙ্গে মহাব্যবস্থাপকের দায়িত্ব পালন করেছেন। সর্বশেষ তিনি রূপালী ব্যাংক সিকিউরিটিজ লিমিটেডের সিইও হিসেবে দায়িত্ব পালন করেন।
+                            \n\nতিনি ১৯৯৮ সালে বিআরসি’র মাধ্যমে সিনিয়র অফিসার পদে রূপালী ব্যাংকে যোগদান করেন। দীর্ঘ ২২ বছরের চাকরি জীবনে তিনি রূপালী ব্যাংকের বিভিন্ন শাখা, ট্রেনিং ইনস্টিটিউটের সিনিয়র ফ্যাকাল্টি মেম্বার, অঞ্চল ও বিভাগীয় প্রধান এবং প্রধান কার্যালয়ের বিভিন্ন গুরুত্বপূর্ণ বিভাগের প্রধান হিসেবে দায়িত্ব পালন করেছেন। এছাড়া তিনি রূপালী ব্যাংকের ফরেন এক্সচেঞ্জ কর্পোরেট শাখায় ব্যবস্থাপক হিসেবেও দায়িত্ব পালন করেন।
+                            \n\nওয়াহিদা বেগম ফাইন্যান্স এন্ড ব্যাংকিং বিষয়ে এমবিএ এবং ১৯৯৫ সালে জাহাঙ্গীরনগর বিশ্ববিদ্যালয় থেকে অর্থনীতিতে প্রথম শ্রেণীতে স্নাতক সম্মান ও স্নাতকোত্তর ডিগ্রী অর্জন করেন। তিনি মালয়েশিয়া ও আরব আমিরাতসহ ব্যাংকিং বিষয়ে বিভিন্ন প্রশিক্ষণ কর্মশালায় অংশগ্রহণ করেছেন । তিনি নোয়াখালীর এক সম্ভ্রান্ত মুসলিম পরিবারে জন্ম গ্রহন করেন। ব্যাক্তিগত জীবনে ওয়াহিদা বেগম দুই কন্যা সন্তানের জননী।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+
+            // for maintaining space
+            <TextView
+                android:id="@+id/blankSpace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topText"
+                android:layout_marginBottom="30dp"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+</RelativeLayout>
