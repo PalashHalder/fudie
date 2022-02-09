@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.example.fudie">
+    package="bd.gov.ansarvdpbank.avubinfo">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,26 +15,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fudie"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MdAddActivity"></activity>
-        <activity android:name=".ChairAddActivity" />
-        <activity android:name=".BangabondhuActivity" />
-        <activity android:name=".DmDirectorActivity" />
-        <activity android:name=".MDirectorActivity" />
-        <activity android:name=".ChairActivity" />
-        <activity android:name=".AgriRuralActivity" />
-        <activity android:name=".ClientCornerActivity" />
-        <activity android:name=".HotlineActivity" />
-        <activity android:name=".ContactActivity" />
-        <activity android:name=".QuestionActivity" />
-        <activity android:name=".OfficeActivity" />
-        <activity android:name=".DepositActivity" />
-        <activity android:name=".LoanActivity" />
-        <activity android:name=".MissionActivity" />
-        <activity android:name=".BankIntro" />
-        <activity android:name=".FullActivity" />
-        <activity android:name=".ShareActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.LoanActivity"></activity>
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.LoanDetailsActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.MdAddActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.ChairAddActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.BangabondhuActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.DmDirectorActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.MDirectorActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.ChairActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.ClientCornerActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.HotlineActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.ContactActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.QuestionActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.OfficeActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.DepositActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.MissionActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.BankIntro" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.FullActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.ShareActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.MainActivity" />
+        <activity android:name="bd.gov.ansarvdpbank.avubinfo.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

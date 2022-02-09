@@ -22,10 +22,11 @@
             android:id="@+id/profile_image"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/profile"
             app:civ_border_width="4dp"
             android:layout_margin="8dp"
-            app:civ_border_color="#2196F3"/>
+            app:civ_border_color="#E6D222"/>
 
 
         <TextView
@@ -33,11 +34,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_toEndOf="@id/profile_image"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true"
             android:includeFontPadding="false"
             android:text="Palash"
             android:textColor="#2196F3"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:textStyle="normal"/>
 
         <TextView
@@ -48,7 +50,7 @@
             android:layout_marginTop="15dp"
             android:layout_toEndOf="@id/profile_image"
             android:includeFontPadding="false"
-            android:text="Halder"
+            android:text=""
             android:textColor="#FF5722"
             android:textSize="18sp"
             android:textStyle="normal" />

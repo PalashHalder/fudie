@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoanActivity">
+    tools:context="bd.gov.ansarvdpbank.avubinfo.LoanActivity">
 
     <include
         android:id="@+id/toolbar"
-        layout="@layout/my_toolbar"
-        />
+        layout="@layout/my_toolbar"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,10 +18,10 @@
         android:layout_marginBottom="60dp">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
+            android:id="@+id/loansRecycler"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
+            android:layout_height="match_parent"
+            android:background="#E9E8EA"/>
     </LinearLayout>
 
 

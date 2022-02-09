@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bd.gov.ansarvdpbank.avubinfo.LoanDetailsActivity">
+
+    <ImageView
+        android:id="@+id/coverImg"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="120dp"
+        android:id="@+id/product_img_url"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_img_url"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:includeFontPadding="false"
+        android:text="Palash"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@id/productName"
+        android:includeFontPadding="false"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/productStatus"
+        android:textSize="14sp"
+        android:textColor="#633B52"
+        android:textStyle="normal"
+        android:text="Halder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_below="@id/productStatus"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.github.barteksc.pdfviewer.PDFView>
+    </RelativeLayout>
+
+</RelativeLayout>
