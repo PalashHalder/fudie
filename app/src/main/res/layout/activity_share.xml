@@ -15,7 +15,7 @@
         android:id="@+id/bankShare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="65dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:text="শেয়ার সংক্রান্ত সেবাসমূহ"
@@ -41,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
+                android:visibility="gone"
                 android:textStyle="bold"
                 android:layout_marginBottom="5dp"
                 android:layout_below="@id/bankShare"
@@ -58,7 +59,7 @@
                 android:justificationMode="inter_word"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/bankShareParaOne"
-                android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংকের অনুমোদিত প্রারম্ভিক মূলধন ১০০(একশত) কোটি টাকা যা ধাপে ধাপে বৃদ্ধি পেয়ে বর্তমানে মূলধন ১০০০ (এক হাজার) কোটি টাকায় উন্নীত হয়েছে, যার ২৫% গণপ্রজাতন্ত্রী বাংলাদেশ সরকার এবং ৭৫% বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্য-সদস্যাদের মধ্যে প্রতিটি ১০০ (একশত) টাকা মূল্যমানের শেয়ার বিক্রয়ের মাধ্যমে সংগ্রহ করার বিধান রয়েছে। বর্তমানে পরিশোধিত মূলধনের পরিমাণ ৪০০ কোটি টাকার মধ্যে আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্যদের অংশ ৩০০ কোটি টাকা।"
+                android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংকের অনুমোদিত প্রারম্ভিক মূলধন ১০০(একশত) কোটি টাকা যা ধাপে ধাপে বৃদ্ধি পেয়ে বর্তমানে মূলধন ১০০০ (এক হাজার) কোটি টাকা, যার ২৫% গণপ্রজাতন্ত্রী বাংলাদেশ সরকার এবং ৭৫% বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্য-সদস্যা, আনসার ও ভিডিপি কর্মকর্তা এবং আনসার-ভিডিপি উন্নয়ন ব্যাংক কর্মকর্তাদের মধ্যে প্রতিটি ১০০ (একশত) টাকা মূল্যমানের শেয়ার বিক্রয়ের মাধ্যমে সংগ্রহ করার বিধান রয়েছে। বর্তমানে পরিশোধিত মূলধনের পরিমাণ ৪০০ কোটি টাকার মধ্যে আনসার ও গ্রাম প্রতিরক্ষা বাহিনীর সদস্যদের অংশ ৩০০ কোটি টাকা।"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
                 android:textSize="14sp" />
 

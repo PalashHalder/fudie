@@ -36,7 +36,7 @@
         <menu>
             <item
                 android:id="@+id/menuShare"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="@string/share"/>
             <item
                 android:id="@+id/menuLoan"
@@ -54,34 +54,34 @@
 
     <item
         android:id="@+id/menuOffice"
-        android:icon="@drawable/ic_arrow"
+        android:icon="@drawable/ic_arrow_right_24"
         android:title="@string/office"/>
 
     <item
         android:id="@+id/menuContact"
-        android:icon="@drawable/ic_arrow"
+        android:icon="@drawable/ic_arrow_right_24"
         android:title="@string/contact"/>
 
     <item
         android:id="@+id/menuFaqs"
-        android:icon="@drawable/ic_arrow"
+        android:icon="@drawable/ic_arrow_right_24"
         android:title="@string/faqs"/>
 
     <item android:title="@string/other">
         <menu>
             <item
                 android:id="@+id/menuSettings"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="@string/settings"
                 />
             <item
                 android:id="@+id/menuEmail"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="@string/email"
                 />
             <item
                 android:id="@+id/menuWeb"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="@string/website"
                 />
         </menu>

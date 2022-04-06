@@ -18,9 +18,9 @@
         android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
-        android:text="শেয়ার ক্রয় বহুল ‍জিজ্ঞাসিত প্রশ্ন"
+        android:text="শেয়ার সংক্রান্ত ক্রয় বহুল ‍জিজ্ঞাসিত প্রশ্ন"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <ScrollView
         android:layout_width="match_parent"

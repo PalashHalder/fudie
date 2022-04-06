@@ -20,7 +20,7 @@
         android:id="@+id/textWelcome"
         android:layout_below="@id/splashImage"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:text="তথ্য কনিকা"
+        android:text="অনুসন্ধান"
         android:textColor="#2196F3"
         android:layout_marginTop="2dp"
         android:layout_gravity="center_horizontal"

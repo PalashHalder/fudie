@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background"
+    tools:context="bd.gov.ansarvdpbank.avubinfo.DivisionActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/my_toolbar"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="প্রকা-বিভাগসমূহ"
+                            android:textColor="#6f6f6f"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/chairOffice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="কর্মী ব্যবস্থপনা বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০\nemail: pd@ansarvdpbank.gov.bd"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mdOffice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="সাধারণ সেবা বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dmdOffice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="ঋণ ও অগ্রীম বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/gmAdmin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="ঋণ আদায় বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/gmOperation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="শাখা নিয়ন্ত্রণ বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/gmAudit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="শেয়ার বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/divTraining"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="প্রশিক্ষণ ও মানব সম্পদ বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/divAudit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="নিরীক্ষা ও পরিদর্শন বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/divInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="তথ্য প্রকাশনা ও জনসংযোগ বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/divIct"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="আইসিটি বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    // Bottom Nav
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_back"
+        app:menu="@menu/bottom_menu"/>
+
+</RelativeLayout>

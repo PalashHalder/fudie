@@ -10,25 +10,25 @@
         <menu>
             <item
                 app:showAsAction="always"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="মুজিব বর্ষ"
                 android:id="@+id/mujib"
                 />
             <item
                 app:showAsAction="ifRoom"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="সুবর্ণজয়ন্তী"
                 android:id="@+id/golden"
                 />
             <item
                 app:showAsAction="never"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="শেয়ার সংক্রান্ত"
                 android:id="@+id/share"
                 />
             <item
                 app:showAsAction="never"
-                android:icon="@drawable/ic_arrow"
+                android:icon="@drawable/ic_arrow_right_24"
                 android:title="ইনোভেশন ব্লগ"
                 android:id="@+id/blog"
                 />
