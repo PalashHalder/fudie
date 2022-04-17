@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="@dimen/_50sdp"
-        android:layout_height="@dimen/_50sdp"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
         android:src="@drawable/logolatest"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="@dimen/_10sdp"
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/logo"
-        android:text="তথ্য কনিকা"
+        android:text="অনুসন্ধান"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:textSize="18sp"

@@ -4,19 +4,19 @@
 
 
     <item
-        android:id="@+id/home_bot"
-        android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home" />
-
-    <item
         android:id="@+id/portal_bot"
         android:icon="@drawable/ic_baseline_web_24"
         android:title="Portal" />
 
     <item
-        android:id="@+id/links_bot"
-        android:icon="@drawable/contact"
-        android:title="Links" />
+        android:id="@+id/media_bot"
+        android:icon="@drawable/ic_video_link"
+        android:title="Media" />
+
+    <item
+        android:id="@+id/exit_bot"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit" />
 
 
 </menu>

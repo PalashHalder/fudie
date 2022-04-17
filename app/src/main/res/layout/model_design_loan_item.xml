@@ -54,15 +54,8 @@
                 android:text="Loan Service"
                 android:textColor="@color/white"
                 android:textSize="18sp"/>
-
-
         </LinearLayout>
 
-
-
-
-
     </LinearLayout>
-
 
 </androidx.cardview.widget.CardView>

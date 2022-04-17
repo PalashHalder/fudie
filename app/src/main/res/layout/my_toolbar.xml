@@ -14,7 +14,7 @@
             android:id="@+id/logo"
             android:src="@drawable/logolatest"
             android:layout_marginLeft="0dp"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentLeft="true"
             android:layout_margin="2dp"
             android:layout_width="30dp"
             android:layout_height="30dp"/>
@@ -25,13 +25,13 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/logo"
             android:includeFontPadding="false"
             android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংক"
             android:textColor="@color/white"
-            android:textSize="12dp"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="normal" />
     </RelativeLayout>
 
 </androidx.appcompat.widget.Toolbar>

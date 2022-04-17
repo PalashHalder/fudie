@@ -233,16 +233,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.home_bot:
-                        makeText(MainActivity.this, "B Bot", Toast.LENGTH_SHORT).show();
-                        break;
-
                     case R.id.portal_bot:
-                        makeText(MainActivity.this, "C Bot", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(MainActivity.this, PortalActivity.class);
+                        startActivity(intent);
                         break;
 
-                    case R.id.links_bot:
-                        makeText(MainActivity.this, "P Bot", Toast.LENGTH_SHORT).show();
+                    case R.id.media_bot:
+                        intent = new Intent(MainActivity.this, MediaActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.exit_bot:
+                        makeText(MainActivity.this, "Are You sure to exit!", Toast.LENGTH_SHORT).show();
                         break;
                 }
 

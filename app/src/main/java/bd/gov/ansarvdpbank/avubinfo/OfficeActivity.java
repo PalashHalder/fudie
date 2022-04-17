@@ -58,7 +58,16 @@ public class OfficeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent= new Intent(OfficeActivity.this, ChairAddActivity.class);
+                Intent intent= new Intent(OfficeActivity.this, AuditActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        branches.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent= new Intent(OfficeActivity.this, BranchActivity.class);
                 startActivity(intent);
             }
         });

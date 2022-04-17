@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:background="@drawable/bottom_nav_back"
+            android:visibility="visible"
             app:menu="@menu/bottom_menu" />
 
 

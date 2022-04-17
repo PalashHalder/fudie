@@ -120,14 +120,5 @@
 
     </ScrollView>
 
-    // Bottom Nav
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/botNav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/bottom_nav_back"
-        app:menu="@menu/bottom_menu"/>
-
 </RelativeLayout>
 
