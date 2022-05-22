@@ -12,6 +12,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
@@ -26,21 +27,23 @@
             android:src="@drawable/profile"
             app:civ_border_width="4dp"
             android:layout_margin="8dp"
-            app:civ_border_color="#E6D222"/>
+            app:civ_border_color="#FF9800"/>
 
 
         <TextView
             android:id="@+id/profileName"
+            android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_below="@id/profile_image"
             android:layout_centerHorizontal="true"
             android:includeFontPadding="false"
-            android:text="Palash"
+            android:text=""
             android:textColor="#2196F3"
             android:textSize="15sp"
-            android:textStyle="normal"/>
+            android:textStyle="normal"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/profileStatus"
@@ -53,16 +56,19 @@
             android:text=""
             android:textColor="#FF5722"
             android:textSize="18sp"
-            android:textStyle="normal" />
+            android:textStyle="normal"
+            android:layout_toRightOf="@id/profile_image" />
 
         <ImageView
+            android:visibility="gone"
             android:id="@+id/nextArrowImage"
             android:layout_margin="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 

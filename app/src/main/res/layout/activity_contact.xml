@@ -107,7 +107,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:text="জনাব বাদল চন্দ্র দেবনাথ\n উপ-মহাব্যবস্থাপক\n সচিব, পরিচালনা পর্ষদ\n আনসার-ভিডিপি উন্নয়ন ব্যাংক\n প্রধান কার্যালয়\n ১৪, আউটার সার্কুলার রোড\n রাজারবাগ, ঢাকা-১২১৭"
+        android:text="জনাব বাদল চন্দ্র দেবনাথ\n উপ-মহাব্যবস্থাপক\n সচিব, পরিচালনা পর্ষদ\n আনসার-ভিডিপি উন্নয়ন ব্যাংক\n প্রধান কার্যালয়\n ১৪, আউটার সার্কুলার রোড\n রাজারবাগ, ঢাকা-১২১৭ \n\n\nEmail:info@ansarvdpbank.gov.bd"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
         android:textSize="14sp" />
 

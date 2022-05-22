@@ -44,7 +44,9 @@ public class DepositAdapter extends RecyclerView.Adapter<DepositViewHolder> {
         holder.depositName.setText(deposit.getProfile_name());
         holder.depositStatus.setText(deposit.getProfile_status());
         Glide.with(context).load(deposit.getProfile_img_url()).into(holder.profileImage);
-        holder.nextArrowImage.setOnClickListener(new View.OnClickListener() {
+
+        //onClickLister is activated on profileName instead of nextArrowImage
+        holder.listView.setOnClickListener(new View.OnClickListener() {
 
 
             @Override
@@ -60,8 +62,9 @@ public class DepositAdapter extends RecyclerView.Adapter<DepositViewHolder> {
 
                 context.startActivity(intent);
 
+                // If you want to show toast when no pdf file is attached then activate the code below:
 
-                Toast.makeText(context, "Name is :" + deposit.getProfile_name(), Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(context, "Name is :" + deposit.getProfile_name(), Toast.LENGTH_SHORT).show();
             }
         });
 

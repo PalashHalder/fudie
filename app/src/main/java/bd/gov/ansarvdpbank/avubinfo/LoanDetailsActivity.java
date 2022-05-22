@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -40,6 +41,7 @@ public class LoanDetailsActivity extends AppCompatActivity {
 
         coverImg = findViewById(R.id.coverImg);
         ProfileImageView = findViewById(R.id.product_img_url);
+
 
         nameTV = findViewById(R.id.productName);
         statusTV = findViewById(R.id.productStatus);

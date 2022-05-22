@@ -11,6 +11,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/loanView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -26,15 +27,17 @@
 
         <TextView
             android:includeFontPadding="false"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="35dp"
             android:layout_toEndOf="@id/product_img_url"
             android:id="@+id/productName"
             android:textSize="18sp"
             android:textColor="#2196F3"
             android:textStyle="bold"
             android:text="Palash"
+            android:maxLines="1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/product_img_url" />
 
         <TextView
             android:layout_below="@id/productName"
@@ -46,17 +49,21 @@
             android:textColor="#633B52"
             android:textStyle="normal"
             android:text="Halder"
+            android:maxLines="1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/product_img_url" />
 
         <ImageView
             android:id="@+id/nextArrowImage"
+            android:visibility="gone"
             android:src="@drawable/ic_baseline_arrow_forward_ios_24"
             android:layout_margin="8dp"
             android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 

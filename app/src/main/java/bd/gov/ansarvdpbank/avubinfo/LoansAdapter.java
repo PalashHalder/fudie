@@ -45,7 +45,7 @@ public class LoansAdapter extends RecyclerView.Adapter<LoansViewHolder> {
         holder.productName.setText(loans.getProduct_name());
         holder.productStatus.setText(loans.getProduct_status());
         Glide.with(context).load(loans.getProduct_img_url()).into(holder.productImage);
-        holder.nextArrowImage.setOnClickListener(new View.OnClickListener() {
+        holder.loanView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -58,8 +58,8 @@ public class LoansAdapter extends RecyclerView.Adapter<LoansViewHolder> {
 
                 context.startActivity(intent);
 
-
-                Toast.makeText(context, "Name is" + loans.getProduct_name(), Toast.LENGTH_SHORT).show();
+                //To Show Toast activate the code below:
+                //Toast.makeText(context, "Name is" + loans.getProduct_name(), Toast.LENGTH_SHORT).show();
             }
         });
     }

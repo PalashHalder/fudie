@@ -1,13 +1,18 @@
 package bd.gov.ansarvdpbank.avubinfo;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.app.AlertDialog;
+import android.content.ClipData;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -29,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     NavigationView navigationView;
     BottomNavigationView botNav;
     CardView mainIntro, mainMission, mainShare, mainLoan, mainDeposit, mainOffice, mainQuestion, mainContact, mainHotline, mainSuccess;
+    View exit_bot;
 
 
 
@@ -52,9 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
         setSupportActionBar(toolbar);
 
         //toolbar.setNavigationIcon(R.drawable.ic_coffee_cup);
@@ -62,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout = findViewById(R.id.drawerLay);
         navigationView = findViewById(R.id.navView);
         botNav = findViewById(R.id.botNav);
+
+        exit_bot = findViewById(R.id.exit_bot);
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(MainActivity.this,drawerLayout,toolbar,R.string.drawerOpen,R.string.drawerClose);
@@ -71,7 +76,35 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24); //
 
+        //Bottom Navigation Button Implementation:
+        exit_bot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                new AlertDialog.Builder(MainActivity.this)
+                        .setTitle("বাহির হওয়া নিশ্চিত করুন")
+                        .setMessage("আপনি কি এ্যাপ থেকে বাহির হতে চান?")
+                        .setIcon(R.drawable.ic_exit)
+                        .setNegativeButton("না, বাহির হতে চাই না", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.dismiss();
+                            }
+                        })
+
+                        .setPositiveButton("হ্যাঁ, বাহির হতে চাই", new DialogInterface.OnClickListener() {
+                            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.dismiss();
+
+                                finishAndRemoveTask();
+                            }
+                        })
+
+                        .show();
+            }
+        });
 
         mainIntro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -272,7 +305,7 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
 
-        return true;
+        return false;                                   // To activate menu make it true
 
     }
 
@@ -300,4 +333,33 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();                                // এটা চালু করলে কোন এ্যালার্ট ছাড়াই এ্যাপ বন্ধ হয়ে যাবে।
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("বাহির হওয়া নিশ্চিত করুন")
+                .setMessage("আপনি কি এ্যাপ থেকে বাহির হতে চান?")
+                .setIcon(R.drawable.ic_exit)
+                .setNegativeButton("না, বাহির হতে চাই না", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                })
+
+                .setPositiveButton("হ্যাঁ, বাহির হতে চাই", new DialogInterface.OnClickListener() {
+                    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+
+                        finishAndRemoveTask();
+                    }
+                })
+
+                .show();
+
+    }
+
 }

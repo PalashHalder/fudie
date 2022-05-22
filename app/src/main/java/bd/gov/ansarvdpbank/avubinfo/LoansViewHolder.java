@@ -16,7 +16,9 @@ public class LoansViewHolder extends RecyclerView.ViewHolder {
     CircleImageView productImage;
     TextView productName;
     TextView productStatus;
-    ImageView nextArrowImage;
+    //ImageView nextArrowImage;
+    View loanView;
+
 
 
 
@@ -26,7 +28,8 @@ public class LoansViewHolder extends RecyclerView.ViewHolder {
         productImage = itemView.findViewById(R.id.product_img_url);
         productName = itemView.findViewById(R.id.productName);
         productStatus = itemView.findViewById(R.id.productStatus);
-        nextArrowImage = itemView.findViewById(R.id.nextArrowImage);
+        //nextArrowImage = itemView.findViewById(R.id.nextArrowImage);
+        loanView = itemView.findViewById(R.id.loanView);
 
 
     }

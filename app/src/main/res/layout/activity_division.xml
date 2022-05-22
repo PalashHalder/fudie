@@ -103,7 +103,44 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="কর্মী ব্যবস্থপনা বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০\nemail: pd@ansarvdpbank.gov.bd"
+                            android:text="কর্মী ব্যবস্থপনা বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২ ২২২২ ২১২৩৯\nemail: pd@ansarvdpbank.gov.bd"
+                            android:textColor="#6f6f6f"
+                            android:textSize="16sp"
+                            android:gravity="start" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cadOffice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textStart"
+                            android:layout_marginTop="12dp"
+                            android:text="কেন্দ্রীয় হিসাব বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২ ৪৮৩১ ৩১৪৭ ২১২৩৯\nemail: cad@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -140,7 +177,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="সাধারণ সেবা বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="সাধারণ সেবা বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২-২২২২ ২৪২৯\nemail: csd@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -177,7 +214,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="ঋণ ও অগ্রীম বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="ঋণ ও অগ্রীম বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২ ৪৮৩১ ৩১৯১\nemail: lad@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -214,7 +251,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="ঋণ আদায় বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="ঋণ আদায় বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২-২২২২ ২৬০২৩\nemail: recovery@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -251,7 +288,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="শাখা নিয়ন্ত্রণ বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="শাখা নিয়ন্ত্রণ বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২-৪৯৩৪ ৯৯১৫\nemail: bcd@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -288,7 +325,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="শেয়ার বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="শেয়ার বিভাগ\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২-২২২২ ২৩৬৭৪\nemail: share@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -325,7 +362,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="প্রশিক্ষণ ও মানব সম্পদ বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="প্রশিক্ষণ ও মানব সম্পদ বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২-২২২২ ২৩৬৭৪\nemail: training@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -362,7 +399,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="নিরীক্ষা ও পরিদর্শন বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="নিরীক্ষা ও পরিদর্শন বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২ ৮৩৩২ ৩৩৮\nemail: audit@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -399,7 +436,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="তথ্য প্রকাশনা ও জনসংযোগ বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="তথ্য প্রকাশনা ও জনসংযোগ বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২ ২২২২ ২৮৪৫২\nemail: avubippr@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
@@ -436,7 +473,7 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
                             android:layout_marginTop="12dp"
-                            android:text="আইসিটি বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০০-০০০০ ০০০০"
+                            android:text="আইসিটি বিভাগ‍\nআনসার-ভিডিপি উন্নয়ন ব্যাংক\n১৪, আউটার সার্কুলার রোড\nরাজারবাগ, ঢাকা-১২১৭\nফোনঃ ০২ ৫৮৩১ ৪২২৩\nemail: ict@ansarvdpbank.gov.bd"
                             android:textColor="#6f6f6f"
                             android:textSize="16sp"
                             android:gravity="start" />
