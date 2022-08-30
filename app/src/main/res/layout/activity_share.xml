@@ -165,7 +165,7 @@
                 android:layout_marginBottom="10dp"
                 android:justificationMode="inter_word"
                 android:layout_below="@id/bankShareParaFour"
-                android:text="আনসার-ভিডিপি উন্নয়ন ব্যাংক একটি লাভজনক প্রতিষ্ঠান। প্রতি আর্থিক বছর শেষে অত্র ব্যাংক শেয়ার হোল্ডারদের মধ্যে অনুমোদিত হারে লভ্যাংশ (Dividend) প্রদান করে আসছে। শেয়ার হোল্ডারগণ তাঁর নিকটবর্তী আনসার-ভিডিপি উন্নয়ন ব্যাংকের শাখাসমূহ হতে শেয়ারের লভ্যাংশ (Dividend) গ্রহন করতে পারেন।"
+                android:text="ব্যাংকের শেয়ারহোল্ডার গ্রাহকদের তথ্য অনলাইন শেয়ার ম্যানেজমেন্ট সিস্টেম সফটওয়্যারে সংরক্ষিত হচ্ছে। ব্যাংকের শেয়ারহোল্ডার গ্রাহকগনকে ব্যক্তিগত তথ্য ও শেয়ার বিষয়ক তথ্য দেখার জন্য প্রথমে https://‍share.ansarvdpbank.gov.bd ঠিকানায় যেতে হবে। তারপর Login মেনু থেকে ‍Shareholder অপশনে গিয়ে শেয়ার রেজি: নম্বর ও পিন নম্বর ব্যবহার করে submit বাটনে ক্লিক করে প্রোফাইলে প্রবেশ করতে হবে। প্রবেশ করার পর শেয়ার সংক্রান্ত যাবতীয় তথ্য পাওয়া যাবে।"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
                 android:textSize="14sp" />
 
@@ -174,6 +174,7 @@
                 android:id="@+id/bankShareParaFive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:textStyle="bold"
@@ -184,6 +185,7 @@
                 android:textSize="16sp" />
             <TextView
                 android:id="@+id/DescriptionFive"
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"

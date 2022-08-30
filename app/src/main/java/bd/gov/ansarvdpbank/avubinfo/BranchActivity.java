@@ -44,6 +44,11 @@ public class BranchActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.GONE);
                 super.onPageFinished(view, url);
             }
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                return super.shouldOverrideUrlLoading(view, url);
+            }
         });
 
         webView.setWebChromeClient(new WebChromeClient(){
