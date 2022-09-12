@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId "bd.gov.ansarvdpbank.avubinfo"
-        minSdkVersion 16
-        targetSdkVersion 30
+        minSdkVersion 21
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
 
