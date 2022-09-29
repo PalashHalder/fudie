@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     BottomNavigationView botNav;
-    CardView mainIntro, mainMission, mainShare, mainLoan, mainDeposit, mainOffice, mainQuestion, mainContact, mainHotline, mainSuccess;
+    CardView mainIntro, mainMission, mainShare, mainLoan, mainDeposit, mainOffice, mainQuestion, mainContact, mainHotline, mainSuccess, mainInfo;
     View exit_bot;
 
 
@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         mainContact = findViewById(R.id.mainContact);
         mainHotline = findViewById(R.id.mainHotline);
         mainSuccess = findViewById(R.id.mainSuccess);
+        mainInfo = findViewById(R.id.mainInfo);
 
 
 
@@ -192,6 +193,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent= new Intent(MainActivity.this, ClientCornerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mainInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent= new Intent(MainActivity.this, InfoActivity.class);
                 startActivity(intent);
             }
         });
