@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     BottomNavigationView botNav;
-    CardView mainIntro, mainMission, mainShare, mainLoan, mainDeposit, mainOffice, mainQuestion, mainContact, mainHotline, mainSuccess, mainInfo;
+    CardView mainIntro, mainMission, mainShare, mainLoan, mainDeposit, mainOffice, mainQuestion, mainContact, mainHotline, mainSuccess, latestInfo, mainCalculator;
     View exit_bot;
 
 
@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
         mainContact = findViewById(R.id.mainContact);
         mainHotline = findViewById(R.id.mainHotline);
         mainSuccess = findViewById(R.id.mainSuccess);
-        mainInfo = findViewById(R.id.mainInfo);
+        latestInfo = findViewById(R.id.latestInfo);
+        mainCalculator = findViewById(R.id.mainCalculator);
 
 
 
@@ -197,14 +198,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mainInfo.setOnClickListener(new View.OnClickListener() {
+        mainCalculator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent= new Intent(MainActivity.this, InfoActivity.class);
+                Intent intent = new Intent(MainActivity.this, CalculatorActivity.class);
                 startActivity(intent);
             }
         });
+
+
+
+
+        // EMI Calculator
+
+
 
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -266,6 +273,22 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(MainActivity.this, ContactActivity.class);
                         startActivity(intent);
                         break;
+
+                    case R.id.menuCalculator:
+                        intent = new Intent(MainActivity.this, CalculatorActivity.class);
+                        startActivity(intent);
+                        break;
+
+                        /*
+                        // Not added yet
+                    case R.id.menuLatestInfo:
+                        intent = new Intent(MainActivity.this, CalculatorActivity.class);
+                        startActivity(intent);
+                        break;
+
+                     */
+
+
                 }
 
                 return false;

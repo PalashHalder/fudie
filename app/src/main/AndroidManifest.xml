@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Fudie"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".InfoActivity"
             android:exported="false" />
         <activity

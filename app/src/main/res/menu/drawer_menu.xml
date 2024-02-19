@@ -67,6 +67,11 @@
         android:icon="@drawable/ic_arrow_right_24"
         android:title="@string/faqs"/>
 
+    <item
+        android:id="@+id/menuCalculator"
+        android:icon="@drawable/ic_arrow_right_24"
+        android:title="@string/calculator"/>
+
     <item android:title="@string/other">
         <menu>
             <item

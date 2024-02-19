@@ -72,7 +72,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:text="\n\nজনাব মোহাম্মদ জাফর মিয়া\n উপ-মহাব্যবস্থাপক\n কর্মী ব্যবস্থাপনা বিভাগ\n আনসার-ভিডিপি উন্নয়ন ব্যাংক\n প্রধান কার্যালয়\n ১৪, আউটার সার্কুলার রোড\n রাজারবাগ, ঢাকা-১২১৭"
+        android:text="\n\nজনাব মোঃ আবদুর রহিম শিকদার\n সহকারী মহাব্যবস্থাপক\n কর্মী ব্যবস্থাপনা বিভাগ\n আনসার-ভিডিপি উন্নয়ন ব্যাংক\n প্রধান কার্যালয়\n ১৪, আউটার সার্কুলার রোড\n রাজারবাগ, ঢাকা-১২১৭"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
         android:textSize="14sp" />
 
